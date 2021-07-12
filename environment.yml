@@ -12,6 +12,7 @@ dependencies:
 - geopandas
 - pandas
 - nrel-pysam
+- pyodbc
 - pip:
   - azure-functions
   - pandapipes==0.4.0
