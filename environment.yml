@@ -1,8 +1,10 @@
 name: env-from-yaml
 channels:
+- conda-forge
 - pytorch
 dependencies:
 - python=3.8
 - numpy
 - pytorch # unused
 - pytest
+- sqlalchemy
