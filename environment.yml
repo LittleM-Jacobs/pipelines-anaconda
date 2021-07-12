@@ -2,9 +2,17 @@ name: env-from-yaml
 channels:
 - conda-forge
 - pytorch
+- nrel
 dependencies:
 - python=3.8
 - numpy
 - pytorch # unused
 - pytest
 - sqlalchemy
+- geopandas
+- pandas
+- nrel-pysam
+- pip:
+  - azure-functions
+  - pandapipes==0.4.0
+  - pandapower==2.6.0
